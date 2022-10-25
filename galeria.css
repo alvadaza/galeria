@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.galeria {
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.imegen-galeria {
+    width: 300px;
+    opacity: 1;
+}
+
+.imegen-galeria:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
